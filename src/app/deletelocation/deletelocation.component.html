@@ -1,0 +1,26 @@
+<div>
+        <h1 class="mt-5 mx-5 mb-3">Delete Location</h1>
+        <div class="d-flex justify-content-center">
+                <div class="mt-5 mb-5 mx-5 add-category-form">
+                        <div class="mb-2">
+                                <div class="text-center msg">{{message}}</div>
+                                <div class="text-center msg0">{{message2}}</div>
+                        </div>
+                        <form [formGroup]="delete">
+                                <div class="form-group">
+                                        <label for="locationName">Location Name:</label>
+                                        <div class="custom-select">
+                                                <select id="locationName" formControlName="id">
+                                                        <option value="" disabled selected>Select a location...</option>
+                                                        <option *ngFor="let l of locations" [value]="l.id">{{l.location_name}}</option>
+                                                </select>
+                                        </div>
+                                        <div *ngIf="f['id'].touched && f['id'].invalid" style="color:red;" class="msgerror">
+                                                <div *ngIf="f['id'].errors && f['id'].errors['required']">You must choose location.</div>
+                                        </div>
+                                </div>
+                                <input style=" border-radius: 5px;" (click)="submit()" [disabled]="delete.invalid" type="submit" value="Delete Location">
+                        </form>
+                </div>
+        </div>
+</div>

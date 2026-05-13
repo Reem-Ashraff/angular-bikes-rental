@@ -1,0 +1,28 @@
+<div>
+  <h1 class="mt-5 mx-5 mb-3">Delete category</h1>
+  <div class="container mt-5 mb-5">
+    <div class="mb-2">
+      <div class="text-center msg">{{message}}</div>
+      <div class="text-center msg0">{{message2}}</div>
+    </div>
+    <div class="add-category-form">
+      <form [formGroup]="delete">
+        <div class="form-group">
+          <label for="bikeId">Category:</label>
+          <div class="custom-select">
+            <select id="bikeId" formControlName="id">
+              <option value="" disabled selected>Select a category...</option>
+              <option *ngFor="let c of categories" [value]="c.id">{{c.category_name}}</option>
+            </select>
+          </div>
+          <div *ngIf="f['id'].touched && f['id'].invalid" style="color:red;" class="msgerror">
+            <div *ngIf="f['id'].errors && f['id'].errors['required']">You must choose categry.</div>
+          </div>
+        </div>
+        <input type="submit" (click)="submit()" [disabled]="delete.invalid" value="Delete Category" style="background-color: rgb(179, 27, 27); border-radius: 5px;">
+      </form>
+    </div>
+  </div>
+</div>
+  
+  
