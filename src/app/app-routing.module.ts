@@ -34,7 +34,7 @@ import { AuthGuard } from './shared/auth.guard';
 
 
 const routes: Routes = [
-  { path: "home", component: HomeComponent ,canActivate:[AuthGuard],data:{role:["user"]}},
+  { path: "home", component: HomeComponent},
   { path: "bikes", component: BikesComponent ,canActivate:[AuthGuard],data:{role:["user"]}},
   { path: "details/:id", component: BikeDetailsComponent ,canActivate:[AuthGuard],data:{role:["user"]}},
   { path: "rent", component: RentComponent ,canActivate:[AuthGuard],data:{role:["user"]}},
