@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://bikes-rental.infinityfreeapp.com/api*"
+      "destination": "https://bikes-rental.infinityfreeapp.com/bikes_rental_laravel/public/api*"
     }
   ]
 }
