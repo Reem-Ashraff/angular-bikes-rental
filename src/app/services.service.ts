@@ -9,17 +9,17 @@ import { map } from 'rxjs';
 })
 export class ServicesService {
 
-  categoriesURL = "http://localhost:8080/bikes_rental_laravel/public/api/categories";
-  bikesURL = "http://localhost:8080/bikes_rental_laravel/public/api/bikes";
-  adduserURL = "http://localhost:8080/bikes_rental_laravel/public/api/addUser";
-  bikeURL = "http://localhost:8080/bikes_rental_laravel/public/api/bike/";
-  offersURL = "http://localhost:8080/bikes_rental_laravel/public/api/offers/";
+  categoriesURL = "https://bikes-rental.infinityfreeapp.com/bikes_rental_laravel/public/api/categories";
+  bikesURL = "https://bikes-rental.infinityfreeapp.com/bikes_rental_laravel/public/api/bikes";
+  adduserURL = "https://bikes-rental.infinityfreeapp.com/bikes_rental_laravel/public/api/addUser";
+  bikeURL = "https://bikes-rental.infinityfreeapp.com/bikes_rental_laravel/public/api/bike/";
+  offersURL = "https://bikes-rental.infinityfreeapp.com/bikes_rental_laravel/public/api/offers/";
   categorybikeURL = "http://localhost:8080/bikes_rental_laravel/public/api/categoryBikes/";
   durationsURL = "http://localhost:8080/bikes_rental_laravel/public/api/durations";
   locationsURL = "http://localhost:8080/bikes_rental_laravel/public/api/locations";
   homebikesURL = "http://localhost:8080/bikes_rental_laravel/public/api/homeBikes";
-  loginURL = "http://localhost:8080/bikes_rental_laravel/public/api/login";
-  userURL = "http://localhost:8080/bikes_rental_laravel/public/api/user/";
+  loginURL = "https://bikes-rental.infinityfreeapp.com/bikes_rental_laravel/public/api/login";
+  userURL = "https://bikes-rental.infinityfreeapp.com/bikes_rental_laravel/public/api/user/";
   rentURL = "http://localhost:8080/bikes_rental_laravel/public/api/rent";
   receiptURL = "http://localhost:8080/bikes_rental_laravel/public/api/receipt";
   creditURL = "http://localhost:8080/bikes_rental_laravel/public/api/credit/";
