@@ -18,7 +18,7 @@ export class ServicesService {
   durationsURL = "http://localhost:8080/bikes_rental_laravel/public/api/durations";
   locationsURL = "http://localhost:8080/bikes_rental_laravel/public/api/locations";
   homebikesURL = "http://localhost:8080/bikes_rental_laravel/public/api/homeBikes";
-  loginURL = "https://bikes-rental.infinityfreeapp.com/api/login";
+  loginURL = "/api/login";
   userURL = "https://bikes-rental.infinityfreeapp.com/bikes_rental_laravel/public/api/user/";
   rentURL = "http://localhost:8080/bikes_rental_laravel/public/api/rent";
   receiptURL = "http://localhost:8080/bikes_rental_laravel/public/api/receipt";
