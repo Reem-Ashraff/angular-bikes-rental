@@ -16,7 +16,7 @@ export class HomeComponent {
     this.apiservice.get_home_bikes()
     .subscribe({next:(data:any)=>{
       for(let item of data){
-        item.image="http://localhost:8080/bikes_rental_laravel/public/storage/"+item.image
+        item.image="https://laravelbikesrental-production.up.railway.app/storage/"+item.image
       }
       this.bikes = data;
     }})
