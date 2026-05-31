@@ -17,7 +17,7 @@ export class AllbikesComponent {
     this.apiservice.all_bikes()
     .subscribe({next:(data:any)=>{
       for(let item of data[0]){
-        item.image="http://localhost:8080/bikes_rental_laravel/public/storage/"+item.image
+        item.image="https://laravelbikesrental-production.up.railway.app/storage/"+item.image
       }
       this.bikes = data[0];
       this.bikes_num = data[1];
