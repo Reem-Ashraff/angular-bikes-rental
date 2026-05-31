@@ -27,7 +27,7 @@ export class BikeDetailsComponent {
     //console.log(this.bikeId)
     this.apiservice.get_bike(this.bikeId)
     .subscribe({ next:(data:any)=>{
-      data.image="http://localhost:8080/bikes_rental_laravel/public/storage/"+data.image
+      data.image="https://laravelbikesrental-production.up.railway.app/storage/"+data.image
       this.bike=data
     }})
     this.apiservice.get_durations()
