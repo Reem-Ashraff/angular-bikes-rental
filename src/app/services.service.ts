@@ -22,8 +22,8 @@ export class ServicesService {
   userURL = "https://laravelbikesrental-production.up.railway.app/api/user/";
   rentURL = "https://laravelbikesrental-production.up.railway.app/api/rent";
   receiptURL = "https://laravelbikesrental-production.up.railway.app/api/receipt";
-  creditURL = "https://laravelbikesrental-production.up.railway.app/api/credit";
-  messageURL = "https://laravelbikesrental-production.up.railway.app/api/message";
+  creditURL = "https://laravelbikesrental-production.up.railway.app/api/credit/";
+  messageURL = "https://laravelbikesrental-production.up.railway.app/api/message/";
   getbikesURL = "https://laravelbikesrental-production.up.railway.app/api/getbikes";
   usersURL = "https://laravelbikesrental-production.up.railway.app/api/users";
   rentalsURL = "https://laravelbikesrental-production.up.railway.app/api/rentals";
