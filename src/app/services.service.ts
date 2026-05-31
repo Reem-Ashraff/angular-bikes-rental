@@ -29,24 +29,24 @@ export class ServicesService {
   rentalsURL = "https://laravelbikesrental-production.up.railway.app/api/rentals";
   limitedbikesURL = "https://laravelbikesrental-production.up.railway.app/api/limitedbikes";
   limitedrentalsURL = "https://laravelbikesrental-production.up.railway.app/api/limitedrentals";
-  alloffersURL = "http://localhost:8080/bikes_rental_laravel/public/api/alloffers";
-  addcategoryURL = "http://localhost:8080/bikes_rental_laravel/public/api/addcategory";
-  updatecategoryURL = "http://localhost:8080/bikes_rental_laravel/public/api/updatecategory";
-  updatebikeURL = "http://localhost:8080/bikes_rental_laravel/public/api/updatebike";
-  addbikeURL = "http://localhost:8080/bikes_rental_laravel/public/api/addbike";
-  deletecategoryURL = "http://localhost:8080/bikes_rental_laravel/public/api/deletecategory";
-  deletebikeURL = "http://localhost:8080/bikes_rental_laravel/public/api/deletebike";
-  addlocationURL = "http://localhost:8080/bikes_rental_laravel/public/api/addlocation";
-  updatelocationURL = "http://localhost:8080/bikes_rental_laravel/public/api/updatelocation";
-  deletelocationURL = "http://localhost:8080/bikes_rental_laravel/public/api/deletelocation";
-  addofferURL = "http://localhost:8080/bikes_rental_laravel/public/api/addoffer";
-  updateofferURL = "http://localhost:8080/bikes_rental_laravel/public/api/updateoffer";
-  deleteofferURL = "http://localhost:8080/bikes_rental_laravel/public/api/deleteoffer";
-  updatebikenameURL = "http://localhost:8080/bikes_rental_laravel/public/api/updatebikename";
-  updatebikedesURL = "http://localhost:8080/bikes_rental_laravel/public/api/updatebikedescription";
-  updatebikecategoryURL = "http://localhost:8080/bikes_rental_laravel/public/api/updatebikecategory";
-  updatebikeageURL = "http://localhost:8080/bikes_rental_laravel/public/api/updatebikeage";
-  discountURL = "http://localhost:8080/bikes_rental_laravel/public/api/discount/";
+  alloffersURL = "https://laravelbikesrental-production.up.railway.app/api/alloffers";
+  addcategoryURL = "https://laravelbikesrental-production.up.railway.app/api/addcategory";
+  updatecategoryURL = "https://laravelbikesrental-production.up.railway.app/api/updatecategory";
+  updatebikeURL = "https://laravelbikesrental-production.up.railway.app/api/updatebike";
+  addbikeURL = "https://laravelbikesrental-production.up.railway.app/api/addbike";
+  deletecategoryURL = "https://laravelbikesrental-production.up.railway.app/api/deletecategory";
+  deletebikeURL = "https://laravelbikesrental-production.up.railway.app/api/deletebike";
+  addlocationURL = "https://laravelbikesrental-production.up.railway.app/api/addlocation";
+  updatelocationURL = "https://laravelbikesrental-production.up.railway.app/api/updatelocation";
+  deletelocationURL = "https://laravelbikesrental-production.up.railway.app/api/deletelocation";
+  addofferURL = "https://laravelbikesrental-production.up.railway.app/api/addoffer";
+  updateofferURL = "https://laravelbikesrental-production.up.railway.app/api/updateoffer";
+  deleteofferURL = "https://laravelbikesrental-production.up.railway.app/api/deleteoffer";
+  updatebikenameURL = "https://laravelbikesrental-production.up.railway.app/api/updatebikename";
+  updatebikedesURL = "https://laravelbikesrental-production.up.railway.app/api/updatebikedescription";
+  updatebikecategoryURL = "https://laravelbikesrental-production.up.railway.app/api/updatebikecategory";
+  updatebikeageURL = "https://laravelbikesrental-production.up.railway.app/api/updatebikeage";
+  discountURL = "https://laravelbikesrental-production.up.railway.app/api/discount/";
 
   constructor(private http:HttpClient) {}
 
