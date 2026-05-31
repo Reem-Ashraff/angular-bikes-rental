@@ -81,8 +81,8 @@ export class ServicesService {
     return this.http.post<[]>(this.adduserURL,user);
   }
   login(user:any){
-    const body = JSON.stringify(user);
-    return this.http.post<[]>(this.loginURL,body);  
+    //const body = JSON.stringify(user);
+    return this.http.post<[]>(this.loginURL,user);  
   }
   get_user(cond:any){
     return this.http.get<[]>(this.userURL+cond);  
